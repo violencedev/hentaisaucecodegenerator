@@ -1,2 +1,2 @@
 # hentaisaucecodegenerator
-An disgusting program for fappers of drawned characters.
+An disgusting program for fappers of drawn characters.
