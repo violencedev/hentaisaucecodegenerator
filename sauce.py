@@ -2,9 +2,9 @@ from random import randint
 import requests
 from bs4 import BeautifulSoup
 
-code = input("Dou you really want hentai code, if it's yes then type Y[es] if it's no type N[o]: ")
-
-if code.lower() in ('yes', 'y'):
+def hentai_code():
+ code = input("Dou you really want hentai code, if it's yes then type Y[es] if it's no type N[o]: ")
+ if code.lower() in ('yes', 'y'):
     del code 
     attemptCount = input('How many times do you want to attempt? ')
     if attemptCount.isdigit() & int(attemptCount) > 0:
@@ -19,5 +19,7 @@ if code.lower() in ('yes', 'y'):
               print("{} - is valid!".format(value))
            else:
               print("{} - we don't know you gotta try! [Response From Server: {}]".format(value, response.status_code))
-else:
+ else:
    print("Cya! I will be hoping to see you again!")
+
+hentai_code()
