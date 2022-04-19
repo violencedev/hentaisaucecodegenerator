@@ -22,4 +22,11 @@ def hentai_code():
  else:
    print("Cya! I will be hoping to see you again!")
 
-hentai_code()
+
+ 
+if __name__ == "__main__":
+    hentai_code()
+ 
+import sauce
+ 
+sauce.hentai_code()
