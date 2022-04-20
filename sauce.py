@@ -19,6 +19,7 @@ def hentai_code():
               print("{} - is valid!".format(value))
            else:
               print("{} - we don't know you gotta try! [Response From Server: {}]".format(value, response.status_code))
+        print(f'`{attemptCount}` codes has created succesfully.')
  else:
    print("Cya! I will be hoping to see you again!")
 
